@@ -1,0 +1,68 @@
+.navbar {
+  background: linear-gradient(to right, #F9F9E0, #ffcce1, #F9F9E0); /* Ganti warna sesuai keinginan Anda */
+}
+
+.nav-link {
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+}
+.nav-link {
+  transition: background-color 0.5s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -ms-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: #fff6fa;
+  border-radius: 30px;
+}
+
+#Contact .btn {
+  background-color: #000000; /* Warna latar belakang tombol */
+  color: #d4687a; /* Warna teks tombol */
+  padding: 10px 20px; /* Atur padding sesuai kebutuhan Anda */
+  border: none; /* Hapus border tombol jika tidak diperlukan */
+  border-radius: 15px; /* Tambahkan border-radius sesuai kebutuhan Anda */
+  text-decoration: none; /* Hapus dekorasi teks tombol jika tidak diperlukan */
+  font-weight: bold; /* Tambahkan ketebalan teks sesuai kebutuhan Anda */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Nerko+One&display=swap');
+
+/* Gaya untuk elemen section1 dengan latar belakang gradient tiga warna */
+.section1 {
+    margin: 0; /* Menetapkan margin menjadi 0 */
+    height: 100vh; /* Menetapkan tinggi menjadi 100% dari viewport height */
+    background: linear-gradient(#e279a3 5%, #F9F9E0 , #e279a3); /* Gradient dari atas ke bawah */
+  }
+
+  /* Gaya untuk elemen teks di dalam section1 */
+  .section1 p {
+    font-family: 'Molle', cursive;
+    color: #be4a78;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  /* Gaya untuk elemen section2 */
+.section2 .skill {
+  background-color: #fee5ef;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+  .section2 .skill p {
+  margin-bottom: 15px;
+}
+
+.section2 .skill img {
+  background-color: #F9F9E0;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
